@@ -17,6 +17,7 @@ Determine whether a given year is a leap year.
 - Borland Turbo C++
 - Borland Turbo Pascal
 - TopSpeed Modula-2
+- Microsoft Fortran
 
 ## Design Goals
 
@@ -53,6 +54,7 @@ C/         Borland Turbo C
 CPP/       Borland Turbo C++
 PASCAL/    Borland Turbo Pascal
 MODULA2/   TopSpeed Modula-2
+FORTRAN/   Microsoft Fortran
 ```
 
 ---
@@ -98,6 +100,13 @@ BUILD
 
 ```dos
 CD MODULA2
+BUILD
+```
+
+### Microsoft Fortran
+
+```dos
+CD FORTRAN
 BUILD
 ```
 

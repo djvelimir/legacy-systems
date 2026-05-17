@@ -1,0 +1,33 @@
+BEGIN
+
+  PROC leap year = (INT year) BOOL:
+    IF
+      year MOD 400 = 0
+    THEN
+      TRUE
+    ELIF
+      year MOD 100 = 0
+    THEN
+      FALSE
+    ELSE
+      year MOD 4 = 0
+    FI;
+
+  PROC show result = (INT year) VOID:
+    (
+      print((whole(year, 0), " "));
+
+      IF leap year(year)
+      THEN
+        print(("Leap", newline))
+      ELSE
+        print(("Common", newline))
+      FI
+    );
+
+  show result(1996);
+  show result(1900);
+  show result(2000);
+  show result(2025)
+
+END

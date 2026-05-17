@@ -18,6 +18,8 @@ Determine whether a given year is a leap year.
 - Borland Turbo Pascal
 - TopSpeed Modula-2
 - Microsoft Fortran
+- PC Scheme
+- ALGOL 68
 
 ## Design Goals
 
@@ -55,6 +57,8 @@ CPP/       Borland Turbo C++
 PASCAL/    Borland Turbo Pascal
 MODULA2/   TopSpeed Modula-2
 FORTRAN/   Microsoft Fortran
+SCHEME/    PC Scheme
+ALGOL/     ALGOL 68
 ```
 
 ---
@@ -107,6 +111,20 @@ BUILD
 
 ```dos
 CD FORTRAN
+BUILD
+```
+
+### PC Scheme
+
+```dos
+CD SCHEME
+BUILD
+```
+
+### ALGOL 68
+
+```dos
+CD ALGOL
 BUILD
 ```
 

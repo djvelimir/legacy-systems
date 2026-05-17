@@ -20,6 +20,8 @@ Determine whether a given year is a leap year.
 - Microsoft Fortran
 - PC Scheme
 - ALGOL 68
+- Oberon
+- Modula-3
 
 ## Design Goals
 
@@ -59,6 +61,8 @@ MODULA2/   TopSpeed Modula-2
 FORTRAN/   Microsoft Fortran
 SCHEME/    PC Scheme
 ALGOL/     ALGOL 68
+MODULA3/   Modula-3
+OBERON/    Oberon
 ```
 
 ---
@@ -125,6 +129,20 @@ BUILD
 
 ```dos
 CD ALGOL
+BUILD
+```
+
+### Modula-3
+
+```dos
+CD MODULA3
+BUILD
+```
+
+### Oberon
+
+```dos
+CD OBERON
 BUILD
 ```
 
